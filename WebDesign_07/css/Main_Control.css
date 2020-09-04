@@ -1,0 +1,26 @@
+body{
+	text-align:center;
+	margin:auto;
+}
+#maintitle{
+	color:Green;
+	font-size:100px;
+	margin:100px;
+	font-family:Arial Black, Gadget, sans-serif;
+}
+#getstart{
+	margin:50px;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+}
+#Para1{
+	margin:100px;
+}
+#Para2{
+	margin:100px;
+}
+#Para3{
+	margin:100px;
+}
+#subwords{
+	margin:100px;
+}

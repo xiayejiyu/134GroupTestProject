@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/Schedule_Control.css" />
+		<script type="text/javascript" src="js/simple_calculate.js"></script>
+		<title>
+			LemonP's Schedule
+		</title>
+	</head>
+	<body>
+		<header id="maintitle">
+			LemonP's Schedule
+		</header>
+		<section id="content">
+			<article>
+				<h4>LemonP的理想疫情作息表:</h4>
+				<table>
+					<tr>
+					  <th>时间段</th>
+					  <th>必选活动</th>
+					  <th>可选活动</th>
+					</tr>
+					<tr>
+					  <td>~-10:00</td>
+					  <td>睡觉</td>
+					  <td></td>
+					</tr>
+					<tr>
+					  <td>10:00-10:30</td>
+					  <td>起床、洗漱、早餐</td>
+					  <td></td>
+					</tr>
+					<tr>
+					  <td>10:30-12:00</td>
+					  <td>复习</td>
+					  <td>课程学习</td>
+					</tr>
+					<tr>
+					  <td>12:00-13:00</td>
+					  <td>吃午餐</td>
+					  <td>做午餐、点外卖</td>
+					</tr>
+					<tr>
+					  <td>13:00-14:00</td>
+					  <td>休息、休闲</td>
+					  <td>了解资讯、娱乐</td>
+					</tr>
+					<tr>
+					  <td>14:00-15:00</td>
+					  <td>午睡</td>
+					  <td></td>
+					</tr>
+					<tr>
+					  <td>15:00-19:00</td>
+					  <td>活动、娱乐、课程学习</td>
+					  <td>课外学习</td>
+					</tr>
+					<tr>
+					  <td>19:00-20:00</td>
+					  <td>晚餐、洗餐具</td>
+					  <td>洗澡</td>
+					</tr>
+					<tr>
+					  <td>20:00-23:00</td>
+					  <td>课外学习</td>
+					  <td>课程学习</td>
+					</tr>
+					<tr>
+					  <td>23:00-25:00(01:00)</td>
+					  <td>休闲、了解资讯、娱乐、洗漱</td>
+					  <td>睡觉</td>
+					</tr>
+					<tr>
+					  <td>25:00(01:00)-~</td>
+					  <td>睡觉</td>
+					  <td></td>
+					</tr>
+				</table>
+				<p id="calculate">
+					四则运算实例：<br/>
+					请分别在文本框内输入两个数字：
+					<input type="text" id="txt_oprd1" value=""/>
+					<select id="operator">
+						<option value="add">+</option>
+						<option value="sub">-</option>
+						<option value="mul">x</option>
+						<option value="div">÷</option>
+					</select>
+					<input type="text" id="txt_oprd2" value=""/>
+					=
+					<input type="text" id="txt_res" value="" disabled="true"/>
+					<input type="button" id="result_btn" value="计算" onclick="calculate()"/>
+				</p>
+				
+			</article>
+		</section>
+		<footer>
+			Copyright 2020 by LemonP. All Rights Reserved
+		</footer>
+	</body>
+</html>
