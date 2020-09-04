@@ -1,3 +1,5 @@
 # 134GroupTestProject
-134小组的测试工程，用于熟悉开发流程与开发工具。
+此为测试分支  
+目前存放：  
+webdesign(一个用于学习简单html、css、js知识的实例)  
 -by LemonP 2020.9.4
